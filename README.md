@@ -1,0 +1,2 @@
+# pricate
+staudy github 
