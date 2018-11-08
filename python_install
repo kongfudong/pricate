@@ -1,0 +1,4 @@
+pip install
+easy_install
+安装whl文件：pip install *.whl
+安装tar.gz:进入到安装目录，python setup.py install
