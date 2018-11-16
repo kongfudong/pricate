@@ -1,0 +1,2 @@
+1.命令中执行python -m pdb xxx.py
+2.代码中设置断点：pdb.set_trace()
