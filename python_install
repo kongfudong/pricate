@@ -2,3 +2,17 @@ pip install
 easy_install
 安装whl文件：pip install *.whl
 安装tar.gz:进入到安装目录，python setup.py install
+pip命令帮助：
+子命令解释说明
+install 安装软件包
+download 下载安装包
+uninstall 卸载安装包
+freeze 按照requirements 格式输出安装包，可以到其他服务器上执行pip install -r requirements.txt 直接安装软件
+list 列出当前系统中的安装包
+show 查看安装包的信息，包括版本、依赖、许可证、作者、主页等信息
+check pip 9.0 . 1 提供的最新子命令，检查安装包的依赖是否完整
+search 查找安装包
+wheel 打包软件到w h e ll 格式
+hash 计算安装包的hash 值
+completion 生成命令补全配置
+help 获取pi p 和子命令的帮助信息
