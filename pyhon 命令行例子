@@ -31,3 +31,12 @@ def main():
     print('parse_boolean_switch',parse.boolean_switch)
 if '__name'=='__main__':
     main()
+3.
+日志模块logging
+包含三个部分：
+口Logger ：日志记录器，是应用程序中能直接使用的接口；
+口Handler ：日志处理器，用以表明将日志保存到什么地方以及保存多久；
+口Form atter ：格式化，用以配置日志的输出格式。
+4.与命令行有关的开源项目
+1>click
+2>prompt_toolkit
