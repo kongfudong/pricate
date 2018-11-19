@@ -20,14 +20,14 @@ if __name__ == '__main__':
 import argparse
 
 def _argparse():
-    parse = argparse.Argumentparse(description='this is description')
-    parse.add_argument('--host',action='store',dest='server',default='localhost',help='connect to server')
+    parser = argparse.ArgumentParser(description='this is description')
+    parser.add_argument('--host',action='store',dest='server',default='localhost',help='connect to server')
     parser.add_argument('-t',action='store_true',default=False,dest='boolean_ switch',help='Set a switch to true')
     return parser.parse_args()
 def main():
     parser = _argparse ( )
     print(parser)
     print('host=',parse.server)
-    print('parse_boolen_switch',parse.boolen_switch)
+    print('parse_boolean_switch',parse.boolean_switch)
 if '__name'=='__main__':
     main()
