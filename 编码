@@ -1,0 +1,5 @@
+1.ASCII编码
+2.latin-1
+3.Unicode编码
+4.Uniform Transformation Format UTF：UTF编码
+UTF-8：Unicode 是表现形式（ UTF-8 解码成Unicode ), UTF-8 是存储形式（ Unicode编码成UTF-8 ） 。UTF-8 只是Unicode 的存储方式之一，只不过是使用最广泛的存储。
