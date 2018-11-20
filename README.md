@@ -1,2 +1,2 @@
-# pricate
+# private
 Tkinter use
