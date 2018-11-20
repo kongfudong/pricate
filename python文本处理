@@ -22,10 +22,18 @@ D islower ：判断字符串是否都为小写；
 口swap case ：将字符串中的大写转换为小写、小写转换为大写；
 口capitalize ：将首字母转换为大写；
 口istitle ：判断字符串是不是一个标题；
-判断类方法：
+4.判断类方法：
 D s.isalpha ：如果字符串只包含字母，并且非空， 则返回True ， 否则返回False;
 D s.isalnum ：如果字符串值包含字母和数字，并且非空， 则返回True ，否则返回
 False;
 口s.isspace ：如果字符串值包含空格、制表符、换行符，并且非空，则返回True ，否则
 返回False·
 D s.isdecimal ：如果字符串只包含数字字符，并且非空， 则返回True ， 否则返回False
+5.查找类函数
+find ：查找子串出现在字符串中的位置，如果查找失败，返回－ 1 j
+index ： 与find 函数类似，如果查找失败，抛出ValueError 异常；
+rfind ： 与find 函数类似，区别在于rfind 是从后向前查找；
+rindex ：与index 函数类似，区别在于rindex 是从后向前查找
+6.字符串操作方法
+join函数：字符串拼接
+splite函数：字符串分割
