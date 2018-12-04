@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #_*_coding:UTF-8 _*_
+#doing
 
 import os
 import hashlib
